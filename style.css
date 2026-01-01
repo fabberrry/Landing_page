@@ -1,6 +1,6 @@
-/* *{
+*{
     outline: 1px solid red;
-} */
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 body{
     font-family: 'Roboto',sans-serif;
@@ -45,3 +45,29 @@ a{
     font-weight: 300px;
     color: #1f2937;
 }
+
+/* alignment */
+body{
+    margin: 0;
+ }
+
+/* header done */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+ul {
+  display: flex;
+  gap: 16px;
+}
+/* img */
+.header img{
+    width: 150px;
+}
+.links{
+    padding: 0px 40px 80px 0px;
+}
+
+
