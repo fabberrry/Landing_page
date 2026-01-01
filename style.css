@@ -18,14 +18,14 @@ a{
     color: #f9faf9;
     font-weight: 900;
     font-size: 48px;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
 }
 /* DONE : color,txt of hero para , hero link, footer copy */
 .about p , a, .footer p{
     font-size: 18px;
     color: #e5e7eb;
 }
-.signup , button{
+.bluebox , button{
     background-color: #3882f6;
 }
 .info div {
@@ -76,7 +76,7 @@ ul {
     display: flex;
     /* align-items: center; */
     padding: 0px 200px 30px 200px;
-    border: 3px solid rgb(6, 193, 240);
+    /* border: 3px solid rgb(6, 193, 240); */
     justify-content: space-between;
 
 }
@@ -94,11 +94,11 @@ ul {
     justify-content: center;
     margin: 0;
     gap: 1px;
-    border: 3px solid orangered;
+    /* border: 3px solid orangered; */
 }
 .details,.about h2{
     margin: 0;
-    border: 3px solid green;
+    /* border: 3px solid green; */
 }
 button{
     padding: 10px;
@@ -110,12 +110,12 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 .randominfo{
     display: flex;
     justify-content: space-evenly;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     width: 800px;
     align-items: center;
 
@@ -131,7 +131,7 @@ button{
 }
 .quote{
     width: 900px;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -141,5 +141,28 @@ button{
 }
 .who {
     align-self: flex-end;
+}
+
+/* Action */
+.signup{
+    /* margin: 0; */
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bluebox{
+    display: flex;
+    justify-content: center;
+    gap: 230px;
+    align-items: center;
+    width: 800px;
+    padding: 25px;
+}
+.left h4 ,.left p{
+    margin: 0;
+}
+.left p{
+    margin-bottom: 6px;
 }
 
