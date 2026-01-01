@@ -1,0 +1,47 @@
+/* *{
+    outline: 1px solid red;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body{
+    font-family: 'Roboto',sans-serif;
+}
+.header ,.title , .footer{
+    background-color: #1f2937;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.about h2{
+    color: #f9faf9;
+    font-weight: 900;
+    font-size: 48px;
+}
+/* DONE : color,txt of hero para , hero link, footer copy */
+.about p , a, .footer p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.signup , button{
+    background-color: #3882f6;
+}
+.randominfo div {
+    border: 2px solid #3882f6;
+    width: 100px;
+    height: 100px;
+}
+.random h3{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+.txt{
+    background-color: #e5e7eb;
+}
+.quote{
+    font-size: 36px;
+    font-weight: 300px;
+    color: #1f2937;
+}
