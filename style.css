@@ -178,3 +178,19 @@ button{
     display: flex;
     justify-content: center;
 }
+
+/* some btn changes */
+button ,.right{
+  border-radius: 8px;
+  color: #f9faf9;
+  border: none;
+  width: 110px;
+  font-weight: 600;
+}
+
+.right{
+    border: 2px solid #f9faf9;
+}
+
+
+
