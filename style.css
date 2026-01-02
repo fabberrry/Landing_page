@@ -30,8 +30,8 @@ a{
 }
 .info div {
     border: 2px solid #3882f6;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 .random h3{
     color: #1f2937;
@@ -75,9 +75,10 @@ ul {
 .title{
     display: flex;
     /* align-items: center; */
-    padding: 0px 200px 30px 200px;
+    padding: 0px 180px 30px 180px;
     /* border: 3px solid rgb(6, 193, 240); */
     justify-content: space-between;
+    gap: 100px;
 
 }
 .imgplace{
@@ -120,13 +121,17 @@ button{
 .randominfo{
     display: flex;
     justify-content: space-evenly;
-    /* border: 3px solid blue; */
     width: 800px;
-    align-items: center;
+    /* align-items: center; */
 
 }
 .info{
-    width: 100px;
+    width: 150px;
+    /* border: 3px solid blue; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 /* quote */
@@ -143,7 +148,7 @@ button{
     align-items: center;
 }
 .quote p:first-child{
-    margin: 0;
+    margin: 0 0 10px 0;
 }
 .quote .who{
     margin-bottom: 0;
@@ -200,7 +205,6 @@ button{
 .info div{
     border-radius: 8px;
     border-width: 3px;
-
 }
 .bluebox{
     padding: 40px;
@@ -220,12 +224,9 @@ button{
     font-weight: 300;
     color: #1f2937;
 }
-.quote{
-    border: 3px solid red;
-}
 .who{
     font-weight: 500;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-size: 25px;
     margin-right: 40px;
 }
@@ -234,3 +235,18 @@ button{
     color: rgb(109, 109, 109);
 }
 
+/* theme correction */
+.info p{
+    /* border: 2px solid red; */
+    margin-top: 8px;
+}
+.quote p{
+    margin-bottom: 8px;
+}
+
+/* images */
+.box img {
+  width: 100%;
+  height: 100%;
+    object-fit: cover;
+}
