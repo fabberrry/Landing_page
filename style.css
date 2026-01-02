@@ -43,7 +43,7 @@ a{
 }
 .quote{
     font-size: 36px;
-    font-weight: 300px;
+    font-weight: 300;
     color: #1f2937;
 }
 
@@ -142,8 +142,12 @@ button{
     flex-direction: column;
     align-items: center;
 }
-.quote p{
+.quote p:first-child{
     margin: 0;
+}
+.quote .who{
+    margin-bottom: 0;
+    margin-top: 0;
 }
 .who {
     align-self: flex-end;
@@ -180,17 +184,53 @@ button{
 }
 
 /* some btn changes */
-button ,.right{
+button{
   border-radius: 8px;
   color: #f9faf9;
   border: none;
   width: 110px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
-.right{
+.right button{
     border: 2px solid #f9faf9;
 }
 
+/* some other boxes and color mathcing of fonts */
+.info div{
+    border-radius: 8px;
+    border-width: 3px;
 
+}
+.bluebox{
+    padding: 40px;
+    border-radius: 6px;
+}
+.imgplace img{
+    border-radius: 6px;
+}
+.left h4{
+    color: #f9faf9;
+}
+.left p{
+    color: #e5e7eb;
+}
+.quote p:first-child {
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+.quote{
+    border: 3px solid red;
+}
+.who{
+    font-weight: 500;
+    border: 2px solid red;
+    font-size: 25px;
+    margin-right: 40px;
+}
+
+.info p{
+    color: rgb(109, 109, 109);
+}
 
